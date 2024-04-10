@@ -1,0 +1,127 @@
+section {
+  padding-top: 60px;
+}
+
+/* *********************************************** */
+
+.f_store {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1618387127577-9cf6cf006761?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Sign_Up {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1711843250800-270a113cb06b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+input {
+  font-size: 15px;
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #1a73e8;
+}
+
+.signup_box {
+  /* -webkit-backdrop-filter: blur(8px); */
+  backdrop-filter: blur(4px);
+  margin: 60px auto 0;
+  border-radius: 16px;
+  box-shadow: 0 0 200px 0px lightgray;
+  padding: 60px;
+  width: 60%;
+}
+
+.signup_box .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.signup_box .name input {
+  width: 47%;
+}
+.signup_box .name input,
+.signup_box .email_verify input,
+.signup_box .password input {
+  font-weight: 700;
+}
+
+.signup_box .create-account {
+  font-size: 25px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.signup_box .email_verify {
+  margin-bottom: 25px;
+}
+
+.signup_box .email_verify-line {
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.signup_box .use-current-email {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.signup_box .use-current-email a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+.signup_box .password {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.signup_box .password input {
+  width: 47%;
+}
+
+.signup_box .password-line {
+  font-size: 12px;
+  width: 92%;
+  padding-bottom: 30px;
+}
+
+.signup_box .content-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-in {
+  font-size: 14px;
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.go_btn {
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  /* width: 47%; */
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
